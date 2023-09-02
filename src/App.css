@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.left {
+  width: 40%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.left,
+.right {
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.left h1 {
+  text-align: center;
+}
+
+.right {
+  width: 58%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.right h1 {
+  text-align: center;
+}
+
+.search-box
+{
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.post {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.post.active {
+  background-color: #e0e0e0;
+}
+
+.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.comment strong {
+  display: block;
+  margin-bottom: 5px;
+}
